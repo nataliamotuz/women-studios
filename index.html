@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
   <title>Women Studios</title>
 </head>
@@ -17,31 +18,31 @@
     <header>
       <nav class="navigation">
         <ul class="menu">
-          <li class="item"><a href="#">Экскурсия</a></li>
-          <li class="item"><a href="#">как всё проходит</a></li>
-          <li class="item"><a href="#">маршрут</a></li>
-          <li class="item"><a href="#">зачем мы это делаем</a></li>
+          <li class="item"><a href="#excursion">Экскурсия</a></li>
+          <li class="item"><a href="#howgoing">как всё проходит</a></li>
+          <li class="item"><a href="#route">маршрут</a></li>
+          <li class="item"><a href="#whydo">зачем мы это делаем</a></li>
         </ul>
         <div class="social-networks-wrapper">
           <ul class="social-networks">
-            <li><a class="fab fa-facebook-f fa-2x" href="//facebook.com" target="_blank"></a></li>
+            <li><a class="fab fa-facebook-f fa-2x" href="https://www.facebook.com/Genderroute/" target="_blank"></a></li>
             <li><a class="fab fa-instagram fa-2x" href="//instagram.com" target="_blank"></a></li>
           </ul>
         </div>
       </nav>
     </header>
+    <div class="empty-header"></div>
     <main>
       <section>
-        <h1>Экскурсии в мастерские художниц</h1>
+        <h1 id="excursion">Экскурсии в мастерские художниц</h1>
         <p class="intro">Приглашаем вас посетить открытые арт-пространства беларусских художниц, познакомиться с ними
           лично, увидеть их работы и посмотреть в какой атмосфере они творят.</p>
         <button class="join"><a href="" target="_blank">Записаться</a></button>
-        <div class="excursion"><img src="./assets/excursion.jpg" alt="Экскурсия в художественную мастерскую"
-            width="1024" height="650"></div>
+        <div class="excursion"><img src="./assets/excursion.jpg" alt="Экскурсия в художественную мастерскую"></div>
 
       </section>
       <section>
-        <h2>Как все происходит</h2>
+        <h2 id="howgoing">Как все проходит</h2>
         <div class="actions">
           <div class="icon"><i class="far fa-address-card fa-7x"></i></div>
           <div>
@@ -64,19 +65,18 @@
           <div class="icon"><i class="far fa-paper-plane fa-7x"></i></div>
           <div>
             <p>Мы создаём канал в Telegram под каждую экскурсию. Там публикуется информация о месте встречи. Сообщается
-              местоположение для тех, кто опаздывает. Туда же отправляется дополнительная информация, с которой будет
-              куда интереснее общаться с художницами.
+              местоположение для тех, кто опаздывает, отправляется дополнительная информация, с которой будет интереснее общаться с художницами.
             </p>
           </div>
         </div>
-        <h2>Маршрут</h2>
+        <h2 id="route">Маршрут</h2>
         <p class="route">Начинаем в зависимости от того, какие мастерские соглашаются принять гостей. Всего на карте 3
           места-кластера. На вокзале (1), у Дома художника (около ТЦ «Рига») ул. Сурганова, 44 (2), у «Палаца
           мастацтваў» (3).</p>
         <img class="map" src="./assets/map.png" alt="map">
         <p class="route">На карте указаны лишь мастерские тех художниц, которые согласились впустить в свои пространства
           публику и рассказать о себе, и о своем культурном опыте.</p>
-        <h2>Зачем мы это делаем</h2>
+        <h2 id="whydo">Зачем мы это делаем</h2>
         <article>
           <p class="why">Беларусские художницы не объединены в какие-либо ассоциации и союзы, у них нет регулярной
             возможности создавать выставочные пространства для своего искусства, что дало бы возможность воздействовать
@@ -91,6 +91,7 @@
             «союзовcкие», «городские» (снять их можно только с одобрения БСХ) и «домашние» (снимаются самостоятельно).
           </p>
         </article>
+        <button class="join"><a href="" target="_blank">Записаться на экскурсию</a></button>
       </section>
 
     </main>
