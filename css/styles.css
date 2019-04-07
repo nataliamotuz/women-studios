@@ -5,6 +5,7 @@ header {
     height: 60px;
     margin: 0 auto;
     width: 1024px;
+    z-index: 13;
 }
 .empty-header {
     height: 140px;
@@ -144,4 +145,27 @@ i {
     margin: 0 auto;
     padding: 25px 0;
     font-size: 20px;
+}
+
+.glide__bullet {
+    width: 18px;
+    height: 18px;
+}
+
+.glide__arrow {
+    top: 0;
+    padding: 0;
+    transform: none;
+    width: 200px;
+    height: 100%;
+    opacity: 0;
+    border: 0  
+}
+
+.glide__arrow--left {
+    left: 0;
+}
+
+.glide__arrow--right {
+    right: 0;  
 }
