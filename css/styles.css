@@ -8,7 +8,7 @@ header {
     z-index: 13;
 }
 .empty-header {
-    height: 140px;
+    height: 130px;
 }
 .item {
     display: inline-block;
@@ -76,30 +76,30 @@ h1 {
     display: block;
     border: 2px solid #8C2FC5;
     transition-delay: 0s;
-} 
-.join a {
     color: #4D4D4D;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-}
+} 
+
 .join:hover {
+    color: #fff;
     background: #8C2FC5;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-.join:hover a {
-    color: #fff;
-}
+
 body {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     color: #4D4D4D;
 }
+
 .wrapper {
     width: 1024px;
     margin: 0 auto;
     
 }
+
 .excursion {
     padding-top: 50px;
 }
@@ -115,7 +115,7 @@ h2 {
 }
 .actions {
     display: inline-block;
-    width: 333px;
+    width: 338px;
     text-align: left;
     margin: 0 auto;
     padding: 0 10px;
@@ -143,7 +143,7 @@ i {
 .why {
     width: 814px;
     margin: 0 auto;
-    padding: 25px 0;
+    padding-bottom: 50px;
     font-size: 20px;
 }
 
@@ -168,4 +168,32 @@ i {
 
 .glide__arrow--right {
     right: 0;  
+}
+
+footer {
+    margin: 0 auto;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 60px;
+    color: #4D4D4D;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.glide {
+    position: relative;
+}
+
+.slider-overlay {
+    position: absolute;
+    opacity: 0.4;
+    background-color: #8C2FC5;
+    width: 1024px;
+    height: 576px;
+    z-index: 1;
+    top: 16px;
+}
+
+.content-block {
+    padding-bottom: 30px;
 }
